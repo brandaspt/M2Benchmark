@@ -7,6 +7,10 @@ body {
   background-color: var(--body-bg);
 }
 
+h4 {
+  margin: 0;
+}
+
 .navbar {
   background-color: var(--navbar-bg);
 }
@@ -50,4 +54,16 @@ body {
   border-top: 1px solid purple;
   border-bottom: 1px solid purple;
   margin: 2em auto;
+}
+
+/* Now on sale */
+.bg-img1 {
+  background-image: url("../tile\ \(15\).jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-img2 {
+  background-image: url("../tile\ \(38\).jpg");
+  background-position: center;
+  background-size: cover;
 }
