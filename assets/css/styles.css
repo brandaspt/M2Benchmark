@@ -1,0 +1,53 @@
+:root {
+  --navbar-bg: #2c2c2c;
+  --navbar-color: #bfbfbf;
+  --body-bg: #d8d8d8;
+}
+body {
+  background-color: var(--body-bg);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+}
+.show > ul:nth-of-type(2),
+.collapsing > ul:nth-of-type(2) {
+  justify-content: flex-start !important;
+}
+.show > ul > li,
+.collapsing > ul > li {
+  margin-right: 10px;
+}
+#highlights .card,
+#whats-good .card {
+  flex-basis: 50%;
+}
+@media screen and (min-width: 1210px) {
+  #highlights .card,
+  #whats-good .card {
+    flex-basis: 25%;
+  }
+}
+.sale {
+  font-size: 1em;
+  background-color: purple;
+  color: white;
+  padding: 3px;
+}
+.card h5 {
+  font-size: 1em;
+  padding-left: 3px;
+}
+.card p {
+  font-size: 0.9em;
+}
+
+.fa-user-circle {
+  margin-right: 5px;
+}
+
+.separator {
+  border-top: 1px solid purple;
+  border-bottom: 1px solid purple;
+  margin: 2em auto;
+}
