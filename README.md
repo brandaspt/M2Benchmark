@@ -2,4 +2,6 @@
 
 [Live Demo](https://brandaspt.github.io/M2Benchmark)
 
-- CSS Selectors
+- HTML
+- CSS
+- Bootstrap
